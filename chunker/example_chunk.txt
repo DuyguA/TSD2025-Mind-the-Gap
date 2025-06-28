@@ -1,0 +1,61 @@
+{
+      "left": {
+        "tokens": [],
+        "start_time": null,
+        "end_time": null,
+        "start_index": null,
+        "end_index": null
+      },
+      "mid": {
+        "tokens": [
+          "Facebook",
+          "is",
+          "a",
+          "social",
+          "networking",
+          "website",
+          "that",
+          "is",
+          "operated",
+          "and",
+          "privately",
+          "owned",
+          "by",
+          "Facebook",
+          "Inc.",
+          "Users",
+          "can",
+          "add",
+          "friends",
+          "and",
+          "send"
+        ],
+        "start_time": 10100,
+        "end_time": 20100,
+        "start_index": 0,
+        "end_index": 21
+      },
+      "right": {
+        "tokens": [
+          "messages",
+          "and",
+          "update",
+          "their",
+          "personal",
+          "profiles",
+          "to",
+          "notify",
+          "friends",
+          "about"
+        ],
+        "start_time": 20190,
+        "end_time": 24880,
+        "start_index": 22,
+        "end_index": 32
+      },
+      "puncted_text": "<ORG>Facebook</ORG> is a social networking website that is operated and privately owned by <ORG>Facebook, Inc.</ORG> Users can add friends and send them messages, and update their personal profiles to notify friends about",
+      "segmented_puncted_text": "|<ORG>Facebook</ORG> is a social networking website that is operated and privately owned by <ORG>Facebook, Inc.</ORG> Users can add friends and send them|messages, and update their personal profiles to notify friends about",
+      "global_chunk_number": 0,
+      "filename": "facebook.xml"
+    }
+
