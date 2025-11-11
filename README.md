@@ -35,3 +35,12 @@ Then we learn the mid-window and use surrounding window audio-transcript pair as
 For the inference we mutated Whisper's HF implementation pipeline. The original implementation includes sliding an audio window of 5seconds then employing some longest matching substring algorithm. Our approach is `window-native` , the inference recognizes window boundaries directly by boundary tags.
 
 ## Results
+
+Results proves effectiveness of our windowing approach:
+
+
+<p align="center">
+<img src="images/results.png" width=400></img>
+</p>
+
+All the experiments were done on TPU with Flax and HF lib.
