@@ -24,7 +24,7 @@ This pipeline is called the **ReverseNormalizer**, consisting of two modules, fi
 Our work introduces the idea of learning the semantic windows. For each 40 seconds of audio, we mark 5secs of left and right context windows with Whisper special tokens. Just like this:
 
 <p align="center">
-<img src="images/tags.png" width=400></img>
+<img src="images/tags.png" width=800></img>
 </p>
 
 Then we learn the mid-window and use surrounding window audio-transcript pair as semantic context, this way though we output a window of 30seconds audio, we indeed went up to an efficient 40 seconds of context. The paper include all the details about the loss function.
@@ -40,7 +40,7 @@ Results proves effectiveness of our windowing approach:
 
 
 <p align="center">
-<img src="images/results.png" width=400></img>
+<img src="images/results.png" width=600></img>
 </p>
 
 All the experiments were done on TPU with Flax and HF lib.
